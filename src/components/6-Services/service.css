@@ -1,0 +1,44 @@
+/* src/components/auth.css */
+.register-container, .login-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-container h2, .login-container h2 {
+  text-align: center;
+  color: white;
+}
+
+.register-container form, .login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-container form input::placeholder, .login-container form input::placeholder{
+  color: gray;
+}
+
+
+.register-container input, .login-container input {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.register-container button, .login-container button {
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.register-container button:hover, .login-container button:hover {
+  background-color: #218838;
+}
